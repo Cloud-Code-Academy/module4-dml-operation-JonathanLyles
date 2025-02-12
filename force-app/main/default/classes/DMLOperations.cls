@@ -173,10 +173,7 @@ public with sharing class DMLOperations {
          * @var Account
          */
         Account existingAcc;
-        /**
-         * List to hold existing opportunities where opportunity name is in @param oppNames, if they exist.
-         * @var List<Opportunity>
-         */
+        //List to hold existing opportunities where opportunity name is in oppNames, if they exist.
         List<Opportunity> existingOpps = new List<Opportunity>();
         /**
          * If existingOpps is not empty, this list is created to hold the opportunity names that are in @param oppNames
