@@ -295,8 +295,8 @@ public with sharing class DMLOperations {
                 con.AccountId = MatchedId;
                 conList.add(con);
              }
-             upsert conList;
-    }
+        }
+        upsert conList;
 }   
     /**
      * Question 11
