@@ -166,10 +166,7 @@ public with sharing class DMLOperations {
      * @param oppNames The list of Opportunity names.
      */
     public static void upsertOpportunities(String accountName, List<String> oppNames) {        
-        /**
-         * The new account if @param accountName does not exist
-         * @var Account
-         */
+        // The new account if accountName does not exist
         Account newAcc = new Account(Name = accountName);
         /**
          * The existing account if @param accountName does exist
